@@ -14,13 +14,19 @@
 
 	.items {
 		.items-list {
-			@include flex;
-			justify-content: space-between;
+			column-count: 2;
+			column-gap: rem(80);
+			overflow: hidden;
 		}
 
-		.item {
-			width: 47%;
-			@include margin('bottom', 'large');
+		@for $i from 1 through 30 {
+			.item:nth-child(#{$i}) {
+				padding-top: (random(100) + 80) + px;
+			}
+		}
+
+		.item:first-child {
+			padding-top: 0;
 		}
 
 		.thumbnail {
