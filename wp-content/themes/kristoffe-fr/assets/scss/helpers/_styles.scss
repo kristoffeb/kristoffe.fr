@@ -9,7 +9,7 @@
 		}
 
 		@if ($size == 'large') {
-			margin-bottom: rem(80);
+			margin-bottom: rem(120);
 		}
 	}
 
@@ -23,7 +23,7 @@
 		}
 
 		@if ($size == 'large') {
-			margin-top: rem(80);
+			margin-top: rem(120);
 		}
 	}
 }
@@ -41,8 +41,13 @@
 		}
 
 		@if ($size == 'large') {
-			padding-top: rem(80);
-			padding-bottom: rem(80);
+			padding-top: rem(120);
+			padding-bottom: rem(120);
+		}
+
+		@if ($size == 'xlarge') {
+			padding-top: rem(180);
+			padding-bottom: rem(180);
 		}
 	}
 
@@ -56,7 +61,7 @@
 		}
 
 		@if ($size == 'large') {
-			padding-top: rem(80);
+			padding-top: rem(120);
 		}
 	}
 
@@ -70,7 +75,7 @@
 		}
 
 		@if ($size == 'large') {
-			padding-bottom: rem(80);
+			padding-bottom: rem(120);
 		}
 	}
 
@@ -86,8 +91,8 @@
 		}
 
 		@if ($size == 'large') {
-			padding-left: rem(80);
-			padding-right: rem(80);
+			padding-left: rem(120);
+			padding-right: rem(120);
 		}
 	}
 
@@ -101,7 +106,7 @@
 		}
 
 		@if ($size == 'large') {
-			padding-left: rem(80);
+			padding-left: rem(120);
 		}
 	}
 
@@ -115,7 +120,7 @@
 		}
 
 		@if ($size == 'large') {
-			padding-right: rem(80);
+			padding-right: rem(120);
 		}
 	}
 }

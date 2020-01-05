@@ -20,6 +20,9 @@ function theme_setup() {
 		define( 'THEMEDOMAIN', __NAMESPACE__ );
 	}
 
+	define( 'THEME_DIR', dirname( __FILE__ ) );
+	define( 'THEME_URI', str_replace( ['http:'], [''], get_template_directory_uri() ) );
+
 	// Loads theme languages
 	load_theme_textdomain( THEMEDOMAIN, get_template_directory() . '/languages' );
 

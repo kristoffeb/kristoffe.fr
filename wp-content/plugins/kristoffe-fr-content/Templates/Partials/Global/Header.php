@@ -1,6 +1,6 @@
 <header class="header" role="banner">
 
-	<div class="content">
+	<div class="grid">
 
 		<nav id="main-nav" role="navigation">
 			<a href="<?php echo home_url(); ?>">

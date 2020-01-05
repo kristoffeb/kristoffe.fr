@@ -1,20 +1,16 @@
 /* Color palette */
-$black:       #000000;
-$darkgray:    #3b3b3b;
-$gray:        #626161;
-$mediumgray:  #bababa;
-$lightgray:   #f5f5f5;
-$navy:        #005276;
-$sky:         #008bcc;
-$mint:        #5ec9ba;
-$orange:      #f36f21;
-$orangeblack: #433b37;
+$black:       #45484B;
+$graylight:   #F4F2F2;
+$gray:        #EAEAEA;
+$graydark:    #888B8D;
+$orange:      #FF5A11;
+$yellowlight: #FDE8BE;
 $white:       #FFFFFF;
 
 /* Grid */
-$grid-width: 61.625rem;
+$grid-width: 81.25rem;
 
 /* Breakpoints */
 $mobile:  '(max-width: 768px)';
-$tablet: '(max-width: 1024px)';
-$desktop:   '(max-width: 1440px)';
+$tablet:  '(max-width: 1024px)';
+$desktop: '(max-width: 1440px)';

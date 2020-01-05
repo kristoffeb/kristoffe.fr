@@ -1,0 +1,45 @@
+.home {
+	h1 {
+		@include padding('top-bottom', 'xlarge');
+		color: $black;
+
+		&, * {
+			@include title('large');
+		}
+
+		strong {
+			color: $orange;
+		}
+	}
+
+	.items {
+		.items-list {
+			@include flex;
+			justify-content: space-between;
+		}
+
+		.item {
+			width: 47%;
+			@include margin('bottom', 'large');
+		}
+
+		.thumbnail {
+			margin-bottom: rem(30);
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.title {
+			@include title;
+			color: $black;
+		}
+
+		.subheadline {
+			@include text('small');
+			color: $graydark;
+			text-transform: uppercase;
+		}
+	}
+}

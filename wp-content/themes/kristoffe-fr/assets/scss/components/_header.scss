@@ -1,0 +1,16 @@
+#main-nav {
+	@include margin('top', 'large');
+
+	#logo {
+		color: $black;
+		background: $white;
+		font-size: 0;
+		display: inline-block;
+		padding: rem(14) rem(5) rem(2) rem(20);
+
+		&:first-letter {
+			@include text('large', 'bold');
+			font-size: rem(28);
+		}
+	}
+}
