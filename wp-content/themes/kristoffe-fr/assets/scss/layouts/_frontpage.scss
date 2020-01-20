@@ -13,6 +13,8 @@
 	}
 
 	.items {
+		@include padding('bottom', 'large');
+
 		.items-list {
 			column-count: 2;
 			column-gap: rem(80);

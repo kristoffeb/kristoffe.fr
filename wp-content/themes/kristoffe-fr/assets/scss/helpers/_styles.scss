@@ -63,6 +63,10 @@
 		@if ($size == 'large') {
 			padding-top: rem(120);
 		}
+
+		@if ($size == 'xlarge') {
+			padding-top: rem(180);
+		}
 	}
 
 	@if ($area == 'bottom') {
@@ -76,6 +80,10 @@
 
 		@if ($size == 'large') {
 			padding-bottom: rem(120);
+		}
+
+		@if ($size == 'xlarge') {
+			padding-bottom: rem(180);
 		}
 	}
 

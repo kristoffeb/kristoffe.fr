@@ -1,0 +1,45 @@
+footer.footer {
+	background-color: $white;
+	@include padding('top', 'large');
+	@include padding('bottom', 'xlarge');
+	text-align: center;
+
+	h2 {
+		@include title('large');
+		color: $black;
+	}
+
+	.menu {
+		@include flex;
+		justify-content: center;
+	}
+
+	.menu-item {
+		@include text;
+
+		a {
+			color: $orange;
+		}
+
+		&.footer-link--text a {
+			color: $graydark;
+			cursor: default;
+		}
+
+		&:before {
+			content: '\2022';
+			color: $graydark;
+			padding: 0 rem(10);
+		}
+
+		&:first-child {
+			a {
+				font-family: 'maison_neuebold';
+			}
+
+			&:before {
+				display: none;
+			}
+		}
+	}
+}
