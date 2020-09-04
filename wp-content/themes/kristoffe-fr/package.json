@@ -38,6 +38,6 @@
   "dependencies": {
     "gulp-flatten": "0.4.0",
     "gulp-install": "^1.1.0",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   }
 }
